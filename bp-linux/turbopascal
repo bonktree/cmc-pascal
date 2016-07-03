@@ -3,12 +3,18 @@
 TURBOPASCAL_LAUNCHER=`realpath $0`
 BP_PATH=`dirname $TURBOPASCAL_LAUNCHER`
 
+eval BP_LAST_ARGUMENT=\"\${$#}\"
+[ 0 -eq "$#" ] || FN_FULL=$BP_LAST_ARGUMENT
+
 [ -z $TMPDIR ] && TMPDIR=/tmp
 TMP_CONF=$TMPDIR/"$USER"-cmc-pascal.dosbox.conf
+
 # Populating temporary config
 BP_SED_RULE_MOUNT_P='s|-package-bp-dir-|'"$BP_PATH"'|g'
 sed -e "$BP_SED_RULE_MOUNT_P; $BP_SED_RULE_ECHO_ON" \
     < "$BP_PATH/dosbox.conf" > $TMP_CONF
+
+[ -z $FN_FULL ] || cd `dirname $FN_FULL`
 
 sh -c "dosbox -conf $TMP_CONF \
 "
