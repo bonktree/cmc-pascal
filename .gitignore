@@ -1,0 +1,31 @@
+
+**/*~
+**/*.o
+**/*.a
+**/*.so
+**/*.so.*
+**/*.swp
+**/*.swo
+**/.#*
+**/*.tmp
+**/a.out
+**/.DS_Store
+**/.dylib
+**/*.dSYM/
+**/desktop.ini
+**/thumbs.db
+
+
+**/*.[lL][sS][tT]
+**/*.[oO][bB][jJ]
+**/*.[cC][rR][fF]
+**/*.[bB][aA][kK]
+**/*.[tT][rR]
+
+# Proprietary blobs
+bp-*/bp/
+
+# Testing material
+bp-*/*.[pP][aA][sS]
+bp-*/*.[eE][xX][eE]
+
