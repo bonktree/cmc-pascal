@@ -1,15 +1,15 @@
 hand_shutdown 
-hand_capmouse "key 291 mod1" 
+hand_capmouse 
 hand_fullscr "key 13 mod2" 
 hand_pause "key 19 mod2" 
 hand_mapper "key 282 mod1" 
 hand_speedlock "key 293 mod2" 
-hand_recwave "key 287 mod1" 
+hand_recwave 
 hand_caprawmidi "key 289 mod1 mod2" 
-hand_scrshot "key 286 mod1" 
+hand_scrshot 
 hand_video "key 286 mod1 mod2" 
-hand_decfskip "key 288 mod1" 
-hand_incfskip "key 289 mod1" 
+hand_decfskip 
+hand_incfskip 
 hand_cycledown "key 292 mod1" 
 hand_cycleup "key 293 mod1" 
 hand_caprawopl "key 288 mod1 mod2" 
@@ -122,7 +122,7 @@ jaxis_0_1- "stick_0 axis 1 0"
 jaxis_0_1+ "stick_0 axis 1 1" 
 jaxis_0_0- "stick_0 axis 0 0" 
 jaxis_0_0+ "stick_0 axis 0 1" 
-jbutton_1_0 
+jbutton_1_0 "stick_1 button 0" 
 jbutton_1_1 
 jbutton_0_2 "stick_0 button 2" 
 jbutton_0_3 "stick_0 button 3" 
@@ -135,7 +135,7 @@ jaxis_0_2+
 jaxis_0_3- 
 jaxis_0_3+ 
 jbutton_0_4 "stick_0 button 4" 
-jbutton_0_5 "stick_0 button 5" 
+jbutton_0_5 
 jhat_0_0_0 "stick_0 hat 0 1" 
 jhat_0_0_3 "stick_0 hat 0 8" 
 jhat_0_0_2 "stick_0 hat 0 4" 
