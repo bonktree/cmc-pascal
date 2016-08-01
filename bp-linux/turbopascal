@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# fixes mouse synchronization problems in fullscreen
+export SDL_VIDEO_X11_DGAMOUSE=0
+
 TURBOPASCAL_LAUNCHER=`realpath $0`
 BP_PATH=`dirname $TURBOPASCAL_LAUNCHER`
 
